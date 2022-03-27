@@ -1,0 +1,365 @@
+/* TerraHacks 2022 Submission */
+/*------------------------------*/
+
+/* -------Colours----------*/
+
+
+.orange {
+  color: #FF914D;
+}
+.white {
+  color: #fff;
+}
+.purple {
+  color: #8262FF;
+}
+.darkestgrey {
+  color: #222629;
+}
+.grey {
+  color: #282d31; /* I know this grey is darker than dark grey, but I already coded so much, so I didn't feel like going back and changing them all*/
+}
+/*-----------------------------*/
+
+html, body{
+  font-family: "Open Sans";
+  font-weight: bold;
+	font-size: 11apx;
+	color: #AFA9C7;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+
+
+.a {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  z-index: 3;
+}
+
+.centered1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.centered2 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+}
+
+
+.centered {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+}
+
+.centered:hover {
+  background-color: #FF914D;
+}
+
+.centered2:hover {
+  background-color: #FF914D;
+  
+}
+
+container1 {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+}
+
+
+.flex-container {
+  display: flex;
+  z-index: 3;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+  z-index: 3;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+  z-index: 3;
+} 
+
+
+.toptext {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 8%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+}
+
+/* -------Side Navigation Bar Home----------*/
+.sidenav {
+  margin-top: 200px;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  margin-left: 47px;
+  padding: 20px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+}
+
+.sidenav b {
+  margin-left: 5px;
+  padding: 20px 6px 6px 32px;
+  font-size: 17px;
+  color: #FF914D;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #FF914D;
+  
+}
+
+/*-----------------------------*/
+
+/* -------Side Navigation Bar Game----------*/
+.sidenavGame {
+  margin-top: 100px;
+  height: 150%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  border-right: 3px solid #fff;
+}
+
+
+
+.sidenavGame a {
+  margin-top: 10px;
+  padding: 20px 6px 6px 32px;
+  text-decoration: none;
+  display: block;
+  margin-left: 13px;
+  font-size: 29px;
+}
+
+.sidenavGame b {
+  margin-left: 13px;
+  font-weight: bold;
+  padding: 20px 6px 6px 32px;
+  font-size: 35px;
+  color: #FF914D;
+  display: block;
+  
+}
+
+.sidenavGame b:hover {
+  color: #fff;
+}
+
+.sidenavGame a:hover {
+  color: #fff;
+  
+}
+
+.sidenavGame c {
+  color: #fff;
+  margin-left: 13px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #FF914D;
+  display: inline;
+}
+
+.title {
+  color: #FF914D;
+  font-size: 50px;
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 3%;
+  font-weight: 900;
+}
+
+play {
+  color: #fff;
+
+  font-weight: bold;
+  font-size: 35px;
+  color: #FF914D;
+}
+
+
+/*-----------------------------*/
+
+.titletype1 {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 20%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.box1 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 34%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box1:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
+
+.box2 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 34%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box2:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
+
+.box3 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 34%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box3:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
+
+.titletype2 {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box4 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box4:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
+
+.box5 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 70%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box5:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
+
+.box6 {
+  width: 300px;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  position: absolute;
+  top: 70%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  display: inline;
+}
+
+.box6:hover {
+  color: #FF914D;
+  border: 4px solid #ffffff;
+}
