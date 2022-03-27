@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+::selection {
+  color: none;
+  background: none;
+}
+</style>
+</style> 
+	<title>BattleShip: Crypto Wars</title>
+
+	<!-- css files -->
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/weblogo.png">
+	<meta name="author" content="BattleShip: Crypto Wars">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+	<body>
+
+		
+		<img class = centered1 src="assets/img/water.png" style="width:400%;">
+
+		<a class="centered2" href="index.html">&nbsp&nbspHOME&nbsp&nbsp</a> 
+
+		<!-- Side Navigation Bar -->
+		<div class="sidenavGame">
+			<br><br><br>
+			<a class="play white">PLAY GAME</a>
+			<a class="play orange" href="game.html">LEADERBOARDS</a>
+			<a class="play orange" href="game.html">RULES & ABOUT</a>
+			<a class="play orange" href="game.html">FAQ</a>
+
+			
+			
+		</div>
+
+
+		<a class="centered2" href="index.html">&nbsp&nbspHOME&nbsp&nbsp</a> 
+		<c class="title">CRYPTO WARS</c> 
+
+		<b class="titletype1">BATTLE A STRANGER: (One game, first to sink all ships)</b><br>
+		<a class="box1" href="load.html"><br>&nbsp&nbspLOW STAKES BET:&nbsp&nbsp<br>0.1 $LUNA<br>&nbsp</a><br>
+
+		<a class="box2" href="load.html"><br>&nbsp&nbspMEDIUM STAKES BET:&nbsp&nbsp<br>1.0 $LUNA<br>&nbsp</a><br>
+
+		<a class="box3" href="load.html"><br>&nbsp&nbspHIGH STAKES BET:&nbsp&nbsp<br>5.0 $LUNA<br>&nbsp</a><br>
+
+		<b class="titletype2">BATTLE A STRANGER: (Best two out of three, first to sink all ships)</b><br>
+		<a class="box4" href="load.html"><br>&nbsp&nbspLOW STAKES BET:&nbsp&nbsp<br>0.1 $LUNA<br>&nbsp</a><br>
+
+		<a class="box5" href="load.html"><br>&nbsp&nbspMEDIUM STAKES BET:&nbsp&nbsp<br>1.0 $LUNA<br>&nbsp</a><br>
+
+		<a class="box6" href="load.html"><br>&nbsp&nbspHIGH STAKES BET:&nbsp&nbsp<br>5.0 $LUNA<br>&nbsp</a><br>
+
+		<!-- Very inefficient code, I know. But I am running on 1.5 hours of sleep, so I brute forced it to get it done-->
+
+		
+
+<script src="js/main.js"></script>
+<script src="js/controller.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+	
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+	<script>
+		var yourbuttons = document.getElementsByClassName('highlight-hover');
+		for (var i = yourbuttons.length - 1; i >= 0; i--) {
+				var currentbtn;
+				yourbuttons[i].onclick=function(){
+				if(currentbtn){
+					currentbtn.classList.remove("highlight");
+				}
+			this.classList.add("highlight");
+			currentbtn=this;
+			}
+			
+		};
+	</script>
+
+
+</body>
+</html>
