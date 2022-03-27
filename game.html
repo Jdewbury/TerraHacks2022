@@ -25,7 +25,7 @@
 	<body>
 
 		
-		<img class = centered1 src="assets/img/water.png" style="width:400%;">
+		<img class = centered1 src="assets/img/water.png" style="width:500%;">
 
 		<a class="centered2" href="index.html">&nbsp&nbspHOME&nbsp&nbsp</a> 
 
@@ -33,12 +33,9 @@
 		<div class="sidenavGame">
 			<br><br><br>
 			<a class="play white">PLAY GAME</a>
-			<a class="play orange" href="game.html">LEADERBOARDS</a>
-			<a class="play orange" href="game.html">RULES & ABOUT</a>
-			<a class="play orange" href="game.html">FAQ</a>
-
-			
-			
+			<a class="play orange">LEADERBOARDS</a>
+			<a class="play orange">RULES & ABOUT</a>
+			<a class="play orange">FAQ</a>
 		</div>
 
 
@@ -52,12 +49,12 @@
 
 		<a class="box3" href="load.html"><br>&nbsp&nbspHIGH STAKES BET:&nbsp&nbsp<br>5.0 $LUNA<br>&nbsp</a><br>
 
-		<b class="titletype2">BATTLE A STRANGER: (Best two out of three, first to sink all ships)</b><br>
-		<a class="box4" href="load.html"><br>&nbsp&nbspLOW STAKES BET:&nbsp&nbsp<br>0.1 $LUNA<br>&nbsp</a><br>
+		<b class="titletype2">BATTLE A STRANGER: (Ultimate high-stakes, first to sink all ships)</b><br>
+		<a class="box4" href="load.html"><br>&nbsp&nbspULTIMATE STAKES BET:&nbsp&nbsp<br>50 $LUNA<br>&nbsp</a><br>
 
-		<a class="box5" href="load.html"><br>&nbsp&nbspMEDIUM STAKES BET:&nbsp&nbsp<br>1.0 $LUNA<br>&nbsp</a><br>
+		<a class="box5" href="load.html"><br>&nbsp&nbspLEGENDARY STAKES BET:&nbsp&nbsp<br>200 $LUNA<br>&nbsp</a><br>
 
-		<a class="box6" href="load.html"><br>&nbsp&nbspHIGH STAKES BET:&nbsp&nbsp<br>5.0 $LUNA<br>&nbsp</a><br>
+		<a class="box6" href="load.html"><br>&nbsp&nbspMYSTIC STAKES BET:&nbsp&nbsp<br>500 $LUNA<br>&nbsp</a><br>
 
 		<!-- Very inefficient code, I know. But I am running on 1.5 hours of sleep, so I brute forced it to get it done-->
 
@@ -76,40 +73,6 @@ function myFunction() {
   }
 }
 </script>
-
-<script>
-	function openCity(evt, cityName) {
-	  var i, tabcontent, tablinks;
-	  tabcontent = document.getElementsByClassName("tabcontent");
-	  for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = "none";
-	  }
-	  tablinks = document.getElementsByClassName("tablinks");
-	  for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	  }
-	  document.getElementById(cityName).style.display = "block";
-	  evt.currentTarget.className += " active";
-	}
-	
-	// Get the element with id="defaultOpen" and click on it
-	document.getElementById("defaultOpen").click();
-	</script>
-	<script>
-		var yourbuttons = document.getElementsByClassName('highlight-hover');
-		for (var i = yourbuttons.length - 1; i >= 0; i--) {
-				var currentbtn;
-				yourbuttons[i].onclick=function(){
-				if(currentbtn){
-					currentbtn.classList.remove("highlight");
-				}
-			this.classList.add("highlight");
-			currentbtn=this;
-			}
-			
-		};
-	</script>
-
 
 </body>
 </html>
