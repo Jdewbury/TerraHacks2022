@@ -1,0 +1,148 @@
+<!-- Because I brute forced certain aspects of the UI, I was unable to properly code the pop
+up especially with the time crunch. We had a working wallet, however, with our minimal experience
+we were unable to get the wallet connected entirely with the UI-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+::selection {
+  color: none;
+  background: none;
+}
+</style>
+</style> 
+	<title>BattleShip: Crypto Wars</title>
+
+	<!-- css files -->
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/weblogo.png">
+	<meta name="author" content="BattleShip: Crypto Wars">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+	<body>
+		<img class = centered1 src="assets/img/battleship.png" style="width:400%;">
+
+		<div class="sidenav">
+			<b>CONNECT WITH US!</b>
+		  
+			<a target="_blank" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-linkedin" style="font-size:32px"></i>
+				</span>
+			</a>
+			<a target="_blank" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-twitter" style="font-size:32px"></i>
+				</span>
+			</a>
+			<a target="_blank" class="nav-item">
+				<span class="icon">
+					<i class="fa fa-github" style="font-size:32px"></i>
+				</span>
+			</a>
+	
+				<a class="nav-item">
+				<span class="icon">
+					<i class="fa fa-envelope-o" style="font-size:32px"></i>
+				</span>
+			</a>
+			</a>
+		</div>
+
+		<b class="centeredconnect" href="game.html">&nbsp&nbspCONNECT WALLET&nbsp&nbsp</b> 
+		<a class="centered" href="game.html">CONNECT TERRA STATION EXTENSION</a> 
+		
+	  </div>
+	<!--
+	<div class="topnav" id="myTopnav">
+		<ol><img class="logo" src="assets/img/weblogo.png" ></ol>
+		<ol><a href="#projects" class="effect-underline"><b>〈 </b> Projects <b> 〉</b></a></ol>
+		<ol><a href="#experience" class="effect-underline"><b>〈 </b> Experience <b> 〉</b></a></ol>
+		<ol><a href="#about" class="effect-underline"><b>〈 </b> About <b> 〉</b></a></ol>
+		<ol><a href="#home" class="effect-underline"><b>〈 </b> Home <b> 〉</b></a></ol>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-align-justify" aria-hidden="true"></i>
+		</a>
+	</div>
+	-->
+
+	<!-- Side Navigation Bar
+	<div class="sidenav">
+		<b>
+		<a href="https://www.linkedin.com/in/jarett-dewbury/" target="_blank" class="nav-item">
+			<span class="icon">
+				<i class="fa fa-linkedin" style="font-size:24px"></i>
+			</span>
+		</a>
+		<a href="https://twitter.com/JarettDewbury" target="_blank" class="nav-item">
+			<span class="icon">
+				<i class="fa fa-twitter" style="font-size:24px"></i>
+			</span>
+		</a>
+		<a href="https://github.com/Jdewbury" target="_blank" class="nav-item">
+			<span class="icon">
+				<i class="fa fa-github" style="font-size:24px"></i>
+			</span>
+		</a>
+
+		
+			<a href="mailto:jdewbury@uwaterloo.ca" class="nav-item">
+			<span class="icon">
+				<i class="fa fa-envelope-o fa-10x"></i>
+			</span>
+		</a>
+		
+		<a href="https://codepen.io/jdewbury" class="nav-item">
+		<span class="icon">
+			<i class="fa fa-codepen" style="font-size:24px"></i>
+		</span>
+		</a>
+		<br>
+		<div class="vl"></div>
+	</div>
+-->
+
+<script src="js/main.js"></script>
+<script src="js/controller.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<script>
+	function openCity(evt, cityName) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent");
+	  for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks");
+	  for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(cityName).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+	
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
+
+
+
+</body>
+</html>
