@@ -30,6 +30,7 @@ html, body{
   scroll-behavior: smooth;
   overflow-x: hidden;
   z-index: 0;
+  background-color: #124cc9;
 }
 
 
@@ -62,6 +63,7 @@ html, body{
 
 
 .centered {
+  text-align: center;
   color: #fff;
   font-size: 30px;
   position: absolute;
@@ -70,6 +72,7 @@ html, body{
   transform: translate(-50%, -50%);
   border: 4px solid #FF914D;
   border-radius: 3%;
+  width: 350px;
 }
 
 .centered:hover {
@@ -362,4 +365,20 @@ play {
 .box6:hover {
   color: #FF914D;
   border: 4px solid #ffffff;
+}
+
+/* Yep, thats right. I brute forced a pop up */
+.centeredconnect {
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid #FF914D;
+  border-radius: 3%;
+  background-color: #0b3591;
 }
